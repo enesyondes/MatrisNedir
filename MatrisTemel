@@ -1,0 +1,22 @@
+Hepimiz temel düzeyde koordinat sistemi hakkında bilgiye sahibiz. Fakat acaba gerçekten bildiğimiz şekliyle mi düşünmeliyiz.
+Öncelikle koordinat sistemi hakkında ezberden arındırılmış bir biçimde düşünelim. Mesela x noktasının koordinaatları (3,2) olsun.
+Nokta diye adlandırdığımız bu bölge acaba gerçekten birer nokta mı? Yoksa iki vektörün skaler toplamı sonucunda oluşmuş bir vektör mü?
+Nokta diye isimlendirdiğimiz bölgenin uzunluğunu nerden bilebiliriz ki yani bir noktanın boyutunu kim belirler? Neye dayanarak nokta diyebiliriz?
+İşte vektörler ise bize o bölgenin oluşturduğu düzlemi, kapladığı alanı ve büyüklüğünü verebilir. Bunun sonucunda ise bu vektörler üzerinde işlem yapmak
+gerekir. Çünkü her işlemi görsele döküp koordinat düzlemi üzerinde yapamayız bu yöntem kendisinin mühendis olarak tanıtan birisi için oldukça ahmakça olurdu.
+3 boyutlu koordinat sistemine geçtiğimizi düşün işlem hacminde artış ve vektör karmaşası oluşacaktır. İşte burada bize matrisler destek oluyor.
+Matrisin her satırına bir vektörü yerleştirip alt alta gelecek biçimde yazdığımızda aynı düzlem üzerinde ki vektörlerin birbiri ile eşleştiğini ve işlem yapmak
+istersek alt alta yapacağımız işlemlerin kolaylığını farkedeceğiz.
+.
+.
+Örnek olarak:
+  i,j,k
+[[1,2,3]
+ [4,5,6]
+ [7,8,9]]
+ .
+ .
+ Yukarıda gördüğümüz şekil 3x3'lük bir matristir. Her bir satırın elemanları ayrı ayrı i,j,k vektörlerini temsil eder. Her satırın kendi içinde oluşturduğu vektörlerle
+ alt alta oluşan satırlar 3 ayrı vektörü verir bize. Bu vektörlerin koordinat sistemi üzerinde çizilip toplanması ise matrisin kendi vektörünü verir.
+ Bu şekilde üzerinde yapacağımız işlemlerle bize kolaylık sağlayan yapıya matris denir. Bilgisayar yapısında çokça kullanılan matris mantığına bir giriş yapmış olduk.
+ Kesinlikle atlanmaması gereken bir konudur bir çok alanda lazım olacaktır.
